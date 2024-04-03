@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tere {
+    font-size: 60.26px;
+    font-weight: 500;
+    text-align: left;
+    color: #75BF7A;
+}
+
+ul>li {
+    font-size: 17.16px;
+    font-weight: 500;
+    line-height: 20.82px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.95px;
+    color: #ffffff;
+    background: #75BF7A;
+    border-radius: 5.95px;
+}
+
+.custom-position {
+    position: absolute;
+    right: 22px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 25px 40px 10px;
+
+}
+
+@media screen and (max-width:576px) {
+    .tere {
+        font-size: 45.26px;
+        font-weight: 500;
+    }
+
+    .custom-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .custom-position {
+        position: absolute;
+        right: 18px;
+        top: 1px;
+        width: 6px;
+    }
+
+    .position-relative {
+        width: 80%;
+    }
+
+    .navbar {
+        padding: 20px 5px 10px;
+    }
+}
+
+.custom-btn {
+    background: #000000;
+    color: #ffffff;
+    font-size: 18.6px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.Download-heading {
+    text-align: left;
+    font-weight: 700;
+
+}
+
+.Download-para {
+    line-height: 28px;
+    text-align: left;
+    color: #9E9DA2;
+}
+.img-h{
+    height: 380px;
+    width: 100%;
+}
+@media screen and (max-width:769px) {
+    .Download-heading{
+        text-align: center;
+    }
+    .custom-btn{
+        font-size: 14px;
+    }
+}
+.custom-input{
+    background: #75BF7A;
+    border-radius: 10px;
+    font-size: 24px;
+
+}
+.link{
+    line-height: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+.phone-no{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 0px 10px 20px;
+}
+.drive{
+    background: #000000;
+    color:#FFFFFF;
+    font-weight: 400;
+    border: none;
+    padding: 14px 0px 14px 0px;
+    font-size: 18px;
+}
+
+::placeholder{
+    color: #9E9DA2;
+    opacity: 0.6;
+    font-size: 18px;
+}
+@media screen and (max-width:576px) {
+
+    .drive{
+        padding: 12px 0px;
+        font-size: 14px;
+    }
+    .phone-no{
+        padding: 8px;
+    }
+    ::placeholder{
+        font-size: 14px;
+    }
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    background-color: #75bf7a;
+    border-radius:  50%;
+}
